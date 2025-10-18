@@ -1,0 +1,7 @@
+name: stormish
+services:
+  web:
+    build: .
+    container_name: stormish-web
+    ports:
+      - 3000:3000

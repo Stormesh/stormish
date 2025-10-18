@@ -1,0 +1,95 @@
+[
+	{
+		"title": "Programming Languages",
+		"data": [
+			{
+				"id": "ts"
+			},
+			{
+				"id": "js"
+			},
+			{
+				"id": "css"
+			},
+			{
+				"id": "html"
+			},
+			{
+				"id": "csharp"
+			},
+			{
+				"id": "java"
+			},
+			{
+				"id": "py"
+			}
+		]
+	},
+	{
+		"title": "Frameworks",
+		"data": [
+			{
+				"id": "next"
+			},
+			{
+				"id": "react"
+			},
+			{
+				"id": "svelte"
+			},
+			{
+				"id": "vue"
+			},
+			{
+				"id": "nuxt"
+			},
+			{
+				"id": "vitest"
+			},
+			{
+				"id": "tailwind"
+			},
+			{
+				"id": "express"
+			},
+			{
+				"id": "dotnet"
+			},
+			{
+				"id": "flask"
+			}
+		]
+	},
+	{
+		"title": "Technologies",
+		"data": [
+			{
+				"id": "linux"
+			},
+			{
+				"id": "node"
+			},
+			{
+				"id": "sql"
+			},
+			{
+				"id": "mysql"
+			},
+			{
+				"id": "postgres"
+			},
+			{
+				"id": "mongo"
+			},
+			{
+				"id": "git"
+			},
+			{
+				"id": "docker"
+			},
+			{
+				"id": "podman"
+			}
+		]
+	}
+]

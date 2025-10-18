@@ -1,0 +1,37 @@
+[
+	{
+		"greets": [
+			"Hello",
+			"Bonjour",
+			"مرحبا",
+			"Hola",
+			"Ciao",
+			"안녕하세요",
+			"こんにちは",
+			"你好",
+			"Hallo",
+			"Olá",
+			"Привет",
+			"Hej",
+			"Merhaba",
+			"Hallå",
+			"Hoi",
+			"Salut",
+			"Hei",
+			"Ahoj",
+			"Γειά σας",
+			"שלום",
+			"Hej",
+			"Halo"
+		],
+        "path": "/"
+	},
+	{
+		"greets": ["Music time", "وقت الموسيقة", "Музыка", "Musica", "Музыка", "Muzyka"],
+		"path": "/music"
+	},
+	{
+		"greets": ["Projects", "مشاريع", "Проекты", "Progetti", "Projekty", "Projekty"],
+		"path": "/projects"
+	}
+]

@@ -1,0 +1,265 @@
+[
+	{
+		"title": "My Projects",
+		"projects": [
+			{
+				"name": "maxhp",
+				"url": "https://maxhp.pages.dev/",
+				"text": "Max HP",
+				"description": "A simple calorie tracker for your daily needs.",
+				"lgDescription": "![Logo](https://raw.githubusercontent.com/Stormesh/simple-calorie-tracker/refs/heads/master/public/maxhp_banner.png)A simple calorie tracker for your daily needs.\n## Features\n*   Search for food items.\n*   View detailed nutritional information for each food item.\n*   Track your daily calorie intake.",
+				"img": "/maxhp.jpg",
+				"coverImg": "/maxhp_cover.png",
+				"technologies": [
+					{
+						"id": "nuxt"
+					},
+					{
+						"id": "vue"
+					},
+					{
+						"id": "tailwind"
+					},
+					{
+						"id": "ts"
+					}
+				]
+			},
+			{
+				"name": "clock",
+				"url": "https://github.com/Stormesh/clock-in-bot",
+				"text": "ClockIn Bot",
+				"description": "A discord bot for clocking in and out.",
+				"lgDescription": "This Discord bot helps in monitoring users' clock-in, break, and meeting statuses in real-time. The bot tracks user activity, allowing for effective time management and easy monitoring of current statuses.\n## Features\n- **Clock-In/Clock-Out**: Users can clock in and out of work.\n- **Break Management**: Track when users go on and off breaks.\n- **Meeting Status**: Monitor users when they are in meetings.\n- **Real-Time Monitoring**: The web app updates user statuses in real-time with clarity, showing who is clocked in, on break, or in a meeting.\n- **Flask Integration**: Sends user data to a Next.js web app for real-time monitoring of who is clocked in.\n- **Login System**: Users can log in to the web app to monitor agents.",
+				"img": "/clock.jpeg",
+				"technologies": [
+					{
+						"id": "next"
+					},
+					{
+						"id": "react"
+					},
+					{
+						"id": "tailwind"
+					},
+					{
+						"id": "socket"
+					},
+					{
+						"id": "flask"
+					},
+					{
+						"id": "mongo"
+					},
+					{
+						"id": "py"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "DST Mods",
+		"hide": true,
+		"projects": [
+			{
+				"name": "thomas",
+				"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1422448457",
+				"text": "Thomas, The Skeleton Chef",
+				"description": "Thomas, The Skeleton Chef is a character mod for Don't Starve Together.",
+				"img": "https://steamuserimages-a.akamaihd.net/ugc/955213717031059636/5DE0866B36B03B537183448346B33A34AB834105/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+				"technologies": [
+					{
+						"id": "lua"
+					},
+					{
+						"id": "paintdotnet"
+					},
+					{
+						"id": "krita"
+					}
+				]
+			},
+			{
+				"name": "stormish",
+				"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1341057026",
+				"text": "Stormish, The Mechanic",
+				"description": "Stormish, The Mechanic is a character mod for Don't Starve Together.",
+				"img": "https://steamuserimages-a.akamaihd.net/ugc/922550570574379365/4A5AC2E72CC7C21AD29BE9F7D372CCA96496D12A/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+				"technologies": [
+					{
+						"id": "lua"
+					},
+					{
+						"id": "paintdotnet"
+					},
+					{
+						"id": "krita"
+					}
+				]
+			},
+			{
+				"name": "postal",
+				"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1320386221",
+				"text": "The Postal Dude",
+				"description": "The Postal Dude is a character mod for Don't Starve Together.",
+				"img": "https://steamuserimages-a.akamaihd.net/ugc/925926048609764988/CF8AD00D1BB757410481EEF4E80FE97C63F386B4/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+				"technologies": [
+					{
+						"id": "lua"
+					},
+					{
+						"id": "paintdotnet"
+					},
+					{
+						"id": "krita"
+					}
+				]
+			}
+		],
+		"customIcon": {
+			"img": "https://cdn2.steamgriddb.com/icon_thumb/f18e1e190060ee0af7d043f41d1f28df.png",
+			"color": "#dfca8e"
+		}
+	},
+	{
+		"title": "GMod Addons",
+		"hide": true,
+		"projects": [
+			{
+				"name": "cogs",
+				"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=925963197",
+				"text": "Cogs Playermodels",
+				"description": "Cogs Playermodels is a playermodel pack for Garry's Mod.",
+				"img": "https://steamuserimages-a.akamaihd.net/ugc/851595787018317017/38C94FA5D12635CC57BA8FFA38210F7D2E422B0B/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+				"technologies": [
+					{
+						"id": "blender"
+					}
+				]
+			},
+			{
+				"name": "gags",
+				"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=929685911",
+				"text": "Toontown Gags Props",
+				"description": "Toontown Gags Props is a prop pack for Garry's Mod.",
+				"img": "https://steamuserimages-a.akamaihd.net/ugc/786287768608628724/91674D569A6E702EF26FC83D8B3F2A9F4A9A9FD0/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+			}
+		],
+		"customIcon": {
+			"img": "https://cdn2.steamgriddb.com/icon_thumb/6f04f0d75f6870858bae14ac0b6d9f73.png",
+			"color": "#1992f7"
+		}
+	},
+	{
+		"title": "Assist Projects",
+		"projects": [
+			{
+				"name": "lostinmemories",
+				"url": "https://eslam980.itch.io/lost-in-memories",
+				"text": "Lost in Memories",
+				"description": "Lost in Memories is a game made by Eslam980.",
+				"img": "https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwODYucG5n/original/nkS1aj.png"
+			},
+			{
+				"name": "thelastghost",
+				"url": "https://eslam980.itch.io/the-last-ghost",
+				"text": "The Last Ghost",
+				"description": "The Last Ghost is a game made by Eslam980.",
+				"img": "https://img.itch.zone/aW1nLzU0ODI5MzYucG5n/315x250%23c/jFqf%2FL.png"
+			},
+			{
+				"name": "wingsofpeace",
+				"url": "https://eslam980.itch.io/wings-of-peace",
+				"text": "Wings of Peace",
+				"description": "Wings of Peace is a game made by Eslam980.",
+				"img": "https://img.itch.zone/aW1nLzE1MTQ1Mjc0LmpwZw==/315x250%23c/hEjkvj.jpg"
+			},
+			{
+				"name": "spinach",
+				"url": "https://eslam980.itch.io/spinach",
+				"text": "Spinach",
+				"description": "Spinach is a game made by Eslam980.",
+				"img": "https://img.itch.zone/aW1nLzE3NDI2MjM5LmpwZw==/315x250%23c/9lSs9Q.jpg"
+			}
+		]
+	},
+	{
+		"title": "Cool Projects",
+		"hide": true,
+		"projects": [
+			{
+				"name": "ryan",
+				"url": "https://literallyme.pages.dev",
+				"text": "Ryan Gosling",
+				"description": "A website dedicated to Ryan Gosling.",
+				"img": "https://literallyme.pages.dev/img/cover.jpg",
+				"technologies": [
+					{
+						"id": "html"
+					},
+					{
+						"id": "css"
+					},
+					{
+						"id": "js"
+					}
+				]
+			},
+			{
+				"name": "drive",
+				"url": "https://idrive.pages.dev",
+				"text": "Drive",
+				"description": "A website dedicated to the movie Drive.",
+				"img": "https://idrive.pages.dev/img/cover.jpg",
+				"technologies": [
+					{
+						"id": "html"
+					},
+					{
+						"id": "css"
+					},
+					{
+						"id": "js"
+					}
+				]
+			},
+			{
+				"name": "toothless",
+				"url": "https://toothless.pages.dev/",
+				"text": "Toothless",
+				"description": "A website dedicated to Toothless from How to Train Your Dragon.",
+				"img": "https://toothless.pages.dev/img/cover.jpg",
+				"technologies": [
+					{
+						"id": "html"
+					},
+					{
+						"id": "css"
+					},
+					{
+						"id": "js"
+					}
+				]
+			},
+			{
+				"name": "cooliosite",
+				"url": "https://stormesh.github.io/cooliosite/",
+				"text": "Coolio Site",
+				"description": "A coolio site.",
+				"img": "https://cooliosite.pages.dev/img/cover.jpeg",
+				"technologies": [
+					{
+						"id": "html"
+					},
+					{
+						"id": "css"
+					},
+					{
+						"id": "js"
+					}
+				]
+			}
+		]
+	}
+]

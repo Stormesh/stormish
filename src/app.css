@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@utility drop-shadow-glow {
+	filter: drop-shadow(0 0 0.15em var(--tw-ring-color));
+}
+
+@utility drop-shadow-glow-lg {
+	filter: drop-shadow(0 0 0.5em var(--tw-ring-color));
+}

@@ -1,0 +1,188 @@
+[
+	{
+		"id": "ts",
+		"name": "TypeScript",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+		"glowColor": "#007acc"
+	},
+	{
+		"id": "js",
+		"name": "JavaScript",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+		"glowColor": "#f0db4f"
+	},
+	{
+		"id": "css",
+		"name": "CSS",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+		"glowColor": "#0070f3"
+	},
+	{
+		"id": "html",
+		"name": "HTML",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+		"glowColor": "#f06529"
+	},
+	{
+		"id": "csharp",
+		"name": "C#",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+		"glowColor": "#a864a8"
+	},
+	{
+		"id": "java",
+		"name": "Java",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+		"glowColor": "#f89820"
+	},
+	{
+		"id": "py",
+		"name": "Python",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+		"glowColor": "#3776ab"
+	},
+	{
+		"id": "next",
+		"name": "Next.js",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+		"glowColor": "#fff"
+	},
+	{
+		"id": "react",
+		"name": "React",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+		"glowColor": "#61dafb"
+	},
+	{
+		"id": "svelte",
+		"name": "Svelte",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
+		"glowColor": "#ff3e00"
+	},
+	{
+		"id": "vue",
+		"name": "Vue",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+		"glowColor": "#42b883"
+	},
+	{
+		"id": "nuxt",
+		"name": "Nuxt",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original.svg",
+		"glowColor": "#00c58e"
+	},
+	{
+		"id": "vitest",
+		"name": "Vitest",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg",
+		"glowColor": "#f0db4f"
+	},
+	{
+		"id": "tailwind",
+		"name": "Tailwind CSS",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+		"glowColor": "#06b6d4"
+	},
+	{
+		"id": "express",
+		"name": "Express.js",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+		"glowColor": "#fff"
+	},
+	{
+		"id": "dotnet",
+		"name": ".NET Core",
+		"img": "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
+		"glowColor": "#512bd4"
+	},
+	{
+		"id": "flask",
+		"name": "Flask",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
+		"glowColor": "#fff"
+	},
+	{
+		"id": "linux",
+		"name": "Linux",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+		"glowColor": "#ffffff"
+	},
+	{
+		"id": "node",
+		"name": "Node.js",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+		"glowColor": "#68a063"
+	},
+	{
+		"id": "sql",
+		"name": "SQL Server",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
+		"glowColor": "#ffffff"
+	},
+	{
+		"id": "mysql",
+		"name": "MySQL",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+		"glowColor": "#4479a1"
+	},
+	{
+		"id": "postgres",
+		"name": "PostgreSQL",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+		"glowColor": "#336791"
+	},
+	{
+		"id": "mongo",
+		"name": "MongoDB",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+		"glowColor": "#47a248"
+	},
+	{
+		"id": "git",
+		"name": "Git",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+		"glowColor": "#f34f29"
+	},
+	{
+		"id": "docker",
+		"name": "Docker",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+		"glowColor": "#0db7ed"
+	},
+	{
+		"id": "podman",
+		"name": "Podman",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg",
+		"glowColor": "#892ca0"
+	},
+	{
+		"id": "lua",
+		"name": "Lua",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg",
+		"glowColor": "#0005ac"
+	},
+	{
+		"id": "paintdotnet",
+		"name": "Paint.NET",
+		"img": "https://media.invisioncic.com/r125076/monthly_2020_07/2128238399_paintneticon(6).png.4b20725c1c9d337627a3a03c9ae7adec.png",
+		"glowColor": "#5c96f5"
+	},
+	{
+		"id": "krita",
+		"name": "Krita",
+		"img": "https://upload.wikimedia.org/wikipedia/commons/7/73/Calligrakrita-base.svg",
+		"glowColor": "#2f9df4"
+	},
+	{
+		"id": "blender",
+		"name": "Blender",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg",
+		"glowColor": "#f5792a"
+	},
+	{
+		"id": "socket",
+		"name": "Socket.io",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg",
+		"glowColor": "#fff"
+	}
+]
