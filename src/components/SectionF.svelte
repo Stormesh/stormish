@@ -5,10 +5,10 @@
 
 	interface ISecsProps {
 		header: string;
-		text: string | Snippet;
+		children: Snippet;
 	}
 
-	let { header, text }: ISecsProps = $props();
+	let { header, children }: ISecsProps = $props();
 	let isInView = $state(false);
 
 	function onInView() {
@@ -21,12 +21,6 @@
 		<h1 class="m-2 text-center align-middle text-5xl font-bold">
 			{header}
 		</h1>
-		{#if typeof text === 'string'}
-			<p class="w-full rounded-lg p-5 text-lg">
-				{@html DOMPurify.sanitize(text)}
-			</p>
-		{:else}
-			{@render text()}
-		{/if}
+		{@render children()}
 	</div>
 </div>

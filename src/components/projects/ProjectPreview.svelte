@@ -24,7 +24,9 @@
 		<div class="self-start overflow-y-auto">
 			<ProjectDetails mini heading="Description" text={hoveredProject.description || ''} />
 			{#if hoveredProject.technologies}
-				<ProjectDetails mini heading="Technologies" text={projectCards} />
+				<ProjectDetails mini heading="Technologies" >
+					<Cards mini center={false} cardData={hoveredProject.technologies} />
+				</ProjectDetails>
 			{/if}
 		</div>
 		<div class="mt-auto">
