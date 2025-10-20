@@ -9,39 +9,43 @@
 </script>
 
 <svelte:head>
-	<title>Stormish | {data.project?.text}</title>
+	<title>Stormish | {data.project?.text ?? 'Project'}</title>
 </svelte:head>
 
-<h1 class="text-center text-4xl font-extrabold">{data.project?.text}</h1>
-<div class="relative m-5 rounded-xl bg-transparent">
-	{#if data.project}
+{#if data.project}
+	<h1 class="text-center text-4xl font-extrabold">{data.project.text}</h1>
+	<div class="relative m-5 rounded-xl bg-transparent">
 		<img
-			src={data.project?.coverImg || data.project?.img}
-			alt={data.project?.name}
+			src={data.project.coverImg || data.project.img}
+			alt={data.project.name}
 			class="m-3 h-[35em] w-full rounded-xl object-contain"
 		/>
 		<ProjectDetails heading="Description">
 			<ProjectDescription
-				text={data.project?.lgDescription || data.project?.description || data.project?.text}
+				text={data.project.lgDescription || data.project.description || data.project.text}
 			/>
 		</ProjectDetails>
-		{#if data.project?.technologies}
+		{#if data.project.technologies}
 			<ProjectDetails heading="Technologies">
-				{#if data.project && data.project?.technologies}
-					<Cards center={false} cardData={data.project?.technologies} />
-				{/if}
+				<Cards center={false} cardData={data.project.technologies} />
 			</ProjectDetails>
 		{/if}
-		{#if data.project?.url}
+		{#if data.project.url}
 			<div class="flex items-center justify-center">
 				<ProjectButton
 					text="Visit Site"
 					color="bg-green-600"
 					hoverColor="hover:bg-green-400"
-					url={data.project?.url}
+					url={data.project.url}
 					big={true}
 				/>
 			</div>
 		{/if}
-	{/if}
-</div>
+	</div>
+{:else}
+	<div class="text-center py-10">
+		<h1 class="text-2xl font-bold">Project Not Found</h1>
+		<p class="mt-2">The requested project could not be found.</p>
+		<a href="/projects" class="mt-4 inline-block text-blue-500 hover:underline">Back to Projects</a>
+	</div>
+{/if}
