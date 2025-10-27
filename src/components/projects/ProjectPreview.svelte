@@ -5,12 +5,6 @@
 	import ProjectDetails from './ProjectDetails.svelte';
 </script>
 
-{#snippet projectCards()}
-	{#if hoveredProject && hoveredProject.technologies}
-		<Cards mini center={false} cardData={hoveredProject.technologies} />
-	{/if}
-{/snippet}
-
 <div
 	class={`hidden p-7 lg:flex ${hoveredProject.view ? 'opacity-100' : 'opacity-0'} dark:bg-opacity-45 fixed top-40 right-[12%] h-[75vh] w-[30vw] flex-col items-center rounded-2xl border-b-4 border-gray-700 bg-gray-100 shadow-md transition-opacity duration-200 dark:border-gray-600 dark:bg-gray-950`}
 >

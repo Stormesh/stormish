@@ -1,30 +1,12 @@
 <script lang="ts">
 	import { hoveredProject } from '$stores/hoverStore.svelte';
-	import { onMount } from 'svelte';
 	import type { IProject } from '$lib/data';
 	import ProjectCard from './ProjectCard.svelte';
+	import { inView } from '$lib/utils';
 
 	let { url, text, description, name, img, coverImg, technologies }: IProject = $props();
 
-	let projectElement: HTMLDivElement | null = null;
-
 	let shown = $state(false);
-
-	onMount(() => {
-		const observer = new IntersectionObserver((entries) => {
-			entries.forEach((entry) => {
-				if (entry.isIntersecting) {
-					shown = true;
-				}
-			});
-		});
-
-		if (projectElement) observer.observe(projectElement);
-
-		return () => {
-			if (projectElement) observer.unobserve(projectElement);
-		};
-	});
 
 	const viewProject = () => {
 		hoveredProject.url = url;
@@ -36,13 +18,17 @@
 		hoveredProject.technologies = technologies;
 		hoveredProject.view = true;
 	};
+
+	const showProject = () => {
+		shown = true;
+	};
 </script>
 
 <!-- Desktop -->
 <div
 	class={`${shown ? 'translate-x-0 scale-100 opacity-100' : '-translate-x-24 scale-75 opacity-0'} 'trannsition-all hidden duration-500 ease-in-out md:inline-block`}
 	onmouseenter={viewProject}
-	bind:this={projectElement}
+	use:inView={{ onInView: showProject }}
 	role="group"
 >
 	<ProjectCard {url} {text} {name} {img} />

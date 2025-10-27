@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import cards from '../data/cards.json';
+	import { inView } from '$lib/utils';
 
 	interface ICardProps {
 		cardData: {
@@ -13,29 +13,15 @@
 	let { cardData, mini = false, center = true }: ICardProps = $props();
 
 	let cardVisibility: boolean[] = $state(cardData.map(() => false));
-	let cardElements: HTMLDivElement[] = $state([]);
 
-	if (!mini) {
-		onMount(() => {
-			const observer = new IntersectionObserver((entries) => {
-				entries.forEach((entry) => {
-					const index = cardElements.indexOf(entry.target as HTMLDivElement);
-					if (index === -1) return;
-					if (entry.isIntersecting) cardVisibility[index] = true;
-				});
-			});
+	const showCard = (index: number) => {
+		if (mini) return;
+		cardVisibility[index] = true;
+	};
 
-			cardElements.forEach((cardElement) => {
-				observer.observe(cardElement);
-			});
-
-			return () => {
-				cardElements.forEach((cardElement) => {
-					observer.unobserve(cardElement);
-				});
-			};
-		});
-	}
+	const getCard = (id: string) => {
+		return cards.find((card) => card.id === id);
+	};
 </script>
 
 <div class="flex flex-wrap {center && 'items-center justify-center'}">
@@ -49,20 +35,20 @@
 				? 'translate-y-0 scale-100 opacity-100'
 				: 'translate-y-8 scale-75 opacity-0'}"
 			style="transition-delay: {index * 50}ms;"
-			bind:this={cardElements[index]}
+			use:inView={{ onInView: () => showCard(index) }}
 		>
 			<img
 				width={64}
 				height={64}
-				src={cards?.find((card) => card.id === id)?.img}
+				src={getCard(id)?.img}
 				alt="Card"
 				class="dark:drop-shadow-glow dark:hover:drop-shadow-glow-lg object-contain {mini
 					? 'h-10 w-10'
 					: 'h-16 w-16'}drop-shadow-sm transition-all duration-300 hover:scale-110"
-				style="--tw-ring-color: {cards?.find((card) => card.id === id)?.glowColor};"
+				style="--tw-ring-color: {getCard(id)?.glowColor};"
 			/>
 			<h2 class="{mini ? 'hidden' : 'text-base md:text-lg'} font-light">
-				{cards?.find((card) => card.id === id)?.name}
+				{getCard(id)?.name}
 			</h2>
 		</div>
 	{/each}
