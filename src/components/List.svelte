@@ -1,11 +1,11 @@
 <div class="place-self-center">
-	<div
+	<ul
 		class="mt-5 text-center text-2xl"
 	>
-		<p>Teamwork</p>
-		<p>Problem Solving</p>
-		<p>Communication</p>
-		<p>Time Management</p>
-		<p>Adaptability</p>
-	</div>
+		<li>Teamwork</li>
+		<li>Problem Solving</li>
+		<li>Communication</li>
+		<li>Time Management</li>
+		<li>Adaptability</li>
+	</ul>
 </div>

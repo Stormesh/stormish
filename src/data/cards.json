@@ -44,7 +44,11 @@
 	{
 		"id": "next",
 		"name": "Next.js",
-		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+		"devicon": {
+			"name": "nextjs",
+			"darkColor": "#fff",
+			"color": "#f06529"
+		},
 		"glowColor": "#fff"
 	},
 	{
@@ -86,7 +90,12 @@
 	{
 		"id": "express",
 		"name": "Express.js",
-		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+		"devicon": {
+			"name": "express",
+			"type": "original",
+			"darkColor": "#fff",
+			"color": "#f06529"
+		},
 		"glowColor": "#fff"
 	},
 	{
@@ -98,7 +107,11 @@
 	{
 		"id": "flask",
 		"name": "Flask",
-		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
+		"devicon": {
+			"name": "flask",
+			"darkColor": "#fff",
+			"color": "#f06529"
+		},
 		"glowColor": "#fff"
 	},
 	{
@@ -182,7 +195,17 @@
 	{
 		"id": "socket",
 		"name": "Socket.io",
-		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg",
+		"devicon": {
+			"name": "socketio",
+			"darkColor": "#fff",
+			"color": "#f06529"
+		},
 		"glowColor": "#fff"
+	},
+	{
+		"id": "postman",
+		"name": "Postman",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+		"glowColor": "#ef5b25"
 	}
 ]

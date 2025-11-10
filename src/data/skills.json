@@ -18,9 +18,6 @@
 				"id": "csharp"
 			},
 			{
-				"id": "java"
-			},
-			{
 				"id": "py"
 			}
 		]
@@ -57,6 +54,9 @@
 			},
 			{
 				"id": "flask"
+			},
+			{
+				"id": "socket"
 			}
 		]
 	},
@@ -89,6 +89,9 @@
 			},
 			{
 				"id": "podman"
+			},
+			{
+				"id": "postman"
 			}
 		]
 	}
