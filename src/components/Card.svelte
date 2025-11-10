@@ -40,7 +40,7 @@
 		style="--tw-ring-color: {card?.glowColor};"
 	>
 		{#if card?.img}
-			<img width={64} height={64} src={card.img} alt="Card" />
+			<img width={mini ? 40 : 64} height={mini ? 40 : 64} src={card.img} alt="Card" />
 		{:else if card?.devicon}
 			<i
 				class="devicon-{card.devicon.name}-{card.devicon.type || "plain"} {mini ? 'text-[2.5rem]' : 'text-[4rem]'} text-[{card.devicon.color}] {card.devicon
