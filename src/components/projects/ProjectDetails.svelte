@@ -12,7 +12,7 @@
 </script>
 
 <div class="m-5">
-	<h2 class="{mini ? 'text-xl' : 'text-2xl'} font-bold">{heading}</h2>
+	<h2 class="{mini ? 'text-xl' : 'text-2xl'} my-2 font-bold">{heading}</h2>
 	{#if text}
 		<p class={mini ? 'text-base' : 'text-lg'}>
 			{text}

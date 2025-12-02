@@ -88,9 +88,6 @@
 				"id": "docker"
 			},
 			{
-				"id": "podman"
-			},
-			{
 				"id": "postman"
 			}
 		]

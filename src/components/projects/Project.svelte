@@ -4,7 +4,7 @@
 	import ProjectCard from './ProjectCard.svelte';
 	import { inView } from '$lib/utils';
 
-	let { url, text, description, name, img, coverImg, technologies }: IProject = $props();
+	let { url, text, description, name, img, coverImg, previewImg, technologies }: IProject = $props();
 
 	let shown = $state(false);
 
@@ -15,6 +15,7 @@
 		hoveredProject.name = name;
 		hoveredProject.img = img;
 		hoveredProject.coverImg = coverImg;
+		hoveredProject.previewImg = previewImg;
 		hoveredProject.technologies = technologies;
 		hoveredProject.view = true;
 	};

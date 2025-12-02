@@ -11,7 +11,7 @@
 	{#if hoveredProject}
 		<h1 class="mb-2 text-center text-4xl font-bold">{hoveredProject.text}</h1>
 		<img
-			src={hoveredProject.coverImg || hoveredProject.img}
+			src={hoveredProject.previewImg || hoveredProject.coverImg || hoveredProject.img}
 			alt={hoveredProject.name}
 			class="m-3 h-[15em] w-[25em] rounded-xl object-cover"
 		/>

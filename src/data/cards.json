@@ -163,12 +163,6 @@
 		"glowColor": "#0db7ed"
 	},
 	{
-		"id": "podman",
-		"name": "Podman",
-		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg",
-		"glowColor": "#892ca0"
-	},
-	{
 		"id": "lua",
 		"name": "Lua",
 		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg",
@@ -207,5 +201,23 @@
 		"name": "Postman",
 		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
 		"glowColor": "#ef5b25"
+	},
+	{
+		"id": "unity",
+		"name": "Unity",
+		"img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
+		"glowColor": "#ffff"
+	},
+	{
+		"id": "lmms",
+		"name": "LMMS",
+		"img": "https://raw.githubusercontent.com/LMMS/artwork/master/Icon%20%26%20Mimetypes/lmms-64x64.svg",
+		"glowColor": "#2aa15b"
+	},
+	{
+		"id": "aseprite",
+		"name": "Aseprite",
+		"img": "https://upload.wikimedia.org/wikipedia/commons/6/69/Logo_Aseprite.svg",
+		"glowColor": "#655561"
 	}
 ]

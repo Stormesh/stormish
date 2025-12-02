@@ -10,6 +10,7 @@
 				"lgDescription": "![Logo](https://raw.githubusercontent.com/Stormesh/simple-calorie-tracker/refs/heads/master/public/maxhp_banner.png)A simple calorie tracker for your daily needs.\n## Features\n*   Search for food items.\n*   View detailed nutritional information for each food item.\n*   Track your daily calorie intake.",
 				"img": "/maxhp.jpg",
 				"coverImg": "/maxhp_cover.png",
+				"previewImg": "https://raw.githubusercontent.com/Stormesh/simple-calorie-tracker/refs/heads/master/public/maxhp_banner.png",
 				"technologies": [
 					{
 						"id": "nuxt"
@@ -158,29 +159,111 @@
 				"name": "lostinmemories",
 				"url": "https://eslam980.itch.io/lost-in-memories",
 				"text": "Lost in Memories",
-				"description": "Lost in Memories is a game made by Eslam980.",
-				"img": "https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwODYucG5n/original/nkS1aj.png"
+				"description": "Lost in Memories is a third-person platformer game made by Eslam980, the goal is to avoid traps to recover the lost memories.",
+				"lgDescription": "![Lost in Memories](https://img.itch.zone/aW1nLzUwOTUwOTUucG5n/original/JDMNaT.png)\nLost in Memories is a third-person platformer game made by Eslam980, the goal is to avoid traps to recover the lost memories. \n\n## Features\n- Multiple Levels: Navigate through various challenging levels filled with traps and obstacles.\n- Engaging Gameplay: Test your reflexes and problem-solving skills as you progress through the game.\n- Immersive Environment: Experience a captivating world designed to enhance your gaming experience.",
+				"img": "https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwODYucG5n/original/nkS1aj.png",
+				"technologies": [
+					{
+						"id": "unity"
+					},
+					{
+						"id": "blender"
+					},
+					{
+						"id": "lmms"
+					}
+				]
 			},
 			{
 				"name": "thelastghost",
 				"url": "https://eslam980.itch.io/the-last-ghost",
 				"text": "The Last Ghost",
-				"description": "The Last Ghost is a game made by Eslam980.",
-				"img": "https://img.itch.zone/aW1nLzU0ODI5MzYucG5n/315x250%23c/jFqf%2FL.png"
+				"description": "The Last Ghost is a 2D platformer game made by Eslam980. Your goal is to take 3 flags across the map to win the game.",
+				"lgDescription": "The Last Ghost is a 2D platformer game made by Eslam980. Your goal is to take 3 flags across the map to win the game.\n\n## Features\n- **Flexible weapons**: You can use different types of weapons to defeat enemies and collect power-ups.\n- **Exploration**: Explore and uncover hidden secrets.\n- **Music and sound effects**: Enjoy an immersive audio experience with original music and sound effects (produced by me).",
+				"img": "https://img.itch.zone/aW1nLzU0ODI5MzYucG5n/315x250%23c/jFqf%2FL.png",
+				"previewImg": "https://img.itch.zone/aW1hZ2UvOTY1OTE1LzU0ODMwODEucG5n/original/YTbQTq.png",
+				"soundCloudUrls": [
+					"https://soundcloud.com/user-277296791/start-of-a-great-tale-the-last-ghost",
+					"https://soundcloud.com/user-277296791/shattered-memory-the-last-ghost"
+				],
+				"technologies": [
+					{
+						"id": "unity"
+					},
+					{
+						"id": "aseprite"
+					},
+					{
+						"id": "lmms"
+					}
+				]
 			},
 			{
 				"name": "wingsofpeace",
 				"url": "https://eslam980.itch.io/wings-of-peace",
 				"text": "Wings of Peace",
-				"description": "Wings of Peace is a game made by Eslam980.",
-				"img": "https://img.itch.zone/aW1nLzE1MTQ1Mjc0LmpwZw==/315x250%23c/hEjkvj.jpg"
+				"description": "A captivating narrative-driven game where players assume the role of a courageous messenger pigeon caught in the midst of a war-torn world.",
+				"lgDescription": "![Wings of Peace](https://img.itch.zone/aW1nLzE1MTQ1MzczLnBuZw==/original/phxJz9.png)\nA captivating narrative-driven game where players assume the role of a courageous messenger pigeon caught in the midst of a war-torn world. As the avian protagonist, your mission is to deliver vital messages between two warring nations, ultimately striving to bring about reconciliation and peace. \n\n Set in a beautifully rendered world ravaged by conflict, the game offers a unique perspective on the consequences of war and the power of communication in fostering understanding and harmony. With its emphasis on storytelling and emotional depth, Wings of Peace immerses players in a poignant tale of hope, sacrifice, and the enduring spirit of compassion.  \n\n## Features\n- **Engaging Storyline**: Immerse yourself in a compelling narrative as you navigate through the challenges of war.\n- **Unique Gameplay**: Experience the world from the perspective of a messenger pigeon, delivering crucial messages across dangerous territories.\n- **Stunning Visuals**: Enjoy beautifully crafted environments and character designs that bring the story to life.",
+				"img": "https://img.itch.zone/aW1nLzE1MTQ1Mjc0LmpwZw==/315x250%23c/hEjkvj.jpg",
+				"previewImg": "https://img.itch.zone/aW1hZ2UvMjU0NTI2OS8xNTE0NTkwOS5wbmc=/original/N4pMoW.png",
+				"technologies": [
+					{
+						"id": "unity"
+					},
+					{
+						"id": "blender"
+					},
+					{
+						"id": "lmms"
+					}
+				]
 			},
 			{
 				"name": "spinach",
 				"url": "https://eslam980.itch.io/spinach",
 				"text": "Spinach",
-				"description": "Spinach is a game made by Eslam980.",
-				"img": "https://img.itch.zone/aW1nLzE3NDI2MjM5LmpwZw==/315x250%23c/9lSs9Q.jpg"
+				"description": "Spinach is a survival brawler game made by Eslam980. Your goal is to fight off waves of enemies and empower the hero with spinach.",
+				"lgDescription": "Spinach is a survival brawler game made by Eslam980. Your goal is to fight off waves of enemies and empower the hero with spinach. \n\n## Features\n- **Engaging Gameplay**: Experience action-packed battles as you fight off waves of enemies.\n- **Unique Mechanics**: Empower the hero with different types of spinach to gain unique abilities and enhance your combat effectiveness.",
+				"soundCloudUrls": [
+					"https://soundcloud.com/user-277296791/8fddd19f-7dca-43d4-a9c2-5344605f5740"
+				],
+				"technologies": [
+					{
+						"id": "unity"
+					},
+					{
+						"id": "blender"
+					},
+					{
+						"id": "lmms"
+					}
+				],
+				"img": "https://img.itch.zone/aW1nLzE3NDI2MjM5LmpwZw==/315x250%23c/9lSs9Q.jpg",
+				"previewImg": "https://img.itch.zone/aW1nLzE3NDM0NzU4LnBuZw==/original/bdGN57.png"
+			},
+			{
+				"name": "wizard",
+				"url": "https://eslam980.itch.io/wizard-academy",
+				"text": "Wizard Academy",
+				"description": "Wizard Academy is a deck-building colony sim game made by Eslam980. Your goal is to build your magic academy and defend it from enemies using spells from your deck.",
+				"lgDescription": "Wizard Academy is a deck-building colony sim game made by Eslam980. Your goal is to build your magic academy and defend it from enemies using spells from your deck. \n\n## Features\n- **Engaging Gameplay**: Experience the thrill of building your magic academy and defending it from enemies.\n- **Unique Mechanics**: Unlock new spells and abilities to enhance your deck and gain unique advantages.",
+				"soundCloudUrls": [
+					"https://soundcloud.com/user-277296791/main-menu-wizard-academy",
+					"https://soundcloud.com/user-277296791/lets-build-a-school-wizard-academy"
+				],
+				"technologies": [
+					{
+						"id": "unity"
+					},
+					{
+						"id": "blender"
+					},
+					{
+						"id": "lmms"
+					}
+				],
+				"img": "https://img.itch.zone/aW1nLzIwNzA5MTQwLnBuZw==/original/fZQrse.png",
+				"previewImg": "https://img.itch.zone/aW1hZ2UvMzQ3MDIxMi8yMDcwODcyOS5wbmc=/original/5vDJVp.png"
 			}
 		]
 	},

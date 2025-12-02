@@ -7,7 +7,7 @@
 
 <div class="{hiddenOnly && !hide ? 'hidden' : !hiddenOnly && hide && 'hidden'} flex flex-col items-center justify-center md:m-5">
 	<h1
-		class="mb-7 self-center bg-gradient-to-tr from-slate-100 to-red-200 bg-clip-text text-center align-middle text-5xl font-bold"
+		class="mb-7 self-center bg-linear-to-tr from-slate-100 to-red-200 bg-clip-text text-center align-middle text-5xl font-bold"
 	>
 		{title}
 		{#if customIcon}
@@ -22,8 +22,8 @@
 		{/if}
 	</h1>
 	<div class="flex flex-wrap items-center justify-center">
-		{#each projects as { url, text, description, name, img, coverImg, technologies }}
-			<Project {url} {text} {description} {name} {img} {coverImg} {technologies} />
+		{#each projects as { url, text, description, name, img, coverImg, previewImg, soundCloudUrls, soundCloudTrackIds, technologies }}
+			<Project {url} {text} {description} {name} {img} {coverImg} {previewImg} {soundCloudUrls} {soundCloudTrackIds} {technologies} />
 		{/each}
 	</div>
 </div>
