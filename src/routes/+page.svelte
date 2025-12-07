@@ -19,8 +19,8 @@
 </SectionF>
 <SectionF header="What I Do">
 	<p class="text-justify">
-		I build and design web applications using <span class="font-bold text-sky-500">React</span>, <span class="font-bold text-emerald-500">Vue</span> and <span class="font-bold text-orange-500">Svelte</span>. Choosing the right tool for the job is crucial.
-		I'm currently focused on developing my backend skills on <span class="font-bold text-lime-600">Node.js</span>, <span class="font-bold dark:text-yellow-300 text-yellow-500">Python</span> and <span class="font-bold text-indigo-400">.NET</span> and I'm more than happy to share my knowledge and experience with others. Driven by my love for music, I also compose and produce music using LMMS.
+		I build and design web applications using <span class="font-bold dark:text-sky-500 text-sky-700">React</span>, <span class="font-bold dark:text-emerald-500 text-emerald-700">Vue</span> and <span class="font-bold dark:text-orange-500 text-orange-700">Svelte</span>. Choosing the right tool for the job is crucial.
+		I'm currently focused on developing my backend skills on <span class="font-bold dark:text-lime-600 text-lime-700">Node.js</span>, <span class="font-bold dark:text-yellow-300 text-yellow-600">Python</span> and <span class="font-bold dark:text-indigo-400 text-indigo-600">.NET</span> and I'm more than happy to share my knowledge and experience with others. Driven by my love for music, I also compose and produce music using LMMS.
 	</p>
 </SectionF>
 <SectionF header="Skills">
