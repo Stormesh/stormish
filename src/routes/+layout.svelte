@@ -21,7 +21,7 @@
 	<section
 		in:fade={{ easing: cubicOut, duration: 400, delay: 150 }}
 		out:fade={{ easing: cubicIn, duration: 150 }}
-		class="mx-auto min-h-screen max-w-screen-lg px-4 md:px-8"
+		class="mx-auto min-h-screen max-w-5xl px-4 md:px-8"
 	>
 		{@render children()}
 	</section>
@@ -32,6 +32,6 @@
 	@reference "../app.css";
 
 	:global(body) {
-		@apply mt-24 bg-slate-50 bg-fixed text-black dark:bg-gradient-to-tr dark:from-gray-950 dark:to-zinc-900 dark:text-white;
+		@apply mt-24 bg-slate-50 bg-fixed text-black dark:bg-linear-to-tr dark:from-gray-950 dark:to-zinc-900 dark:text-white;
 	}
 </style>
