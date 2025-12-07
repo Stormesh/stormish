@@ -9,7 +9,7 @@
 				"description": "A simple calorie tracker for your daily needs.",
 				"lgDescription": "![Logo](https://raw.githubusercontent.com/Stormesh/simple-calorie-tracker/refs/heads/master/public/maxhp_banner.png)A simple calorie tracker for your daily needs.\n## Features\n*   Search for food items.\n*   View detailed nutritional information for each food item.\n*   Track your daily calorie intake.",
 				"img": "/maxhp.jpg",
-				"coverImg": "/maxhp_cover.png",
+				"coverImg": "/maxhp_cover.webp",
 				"previewImg": "https://raw.githubusercontent.com/Stormesh/simple-calorie-tracker/refs/heads/master/public/maxhp_banner.png",
 				"technologies": [
 					{

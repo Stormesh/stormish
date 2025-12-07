@@ -1,5 +1,5 @@
 <script lang="ts">
-	const wx78 = '/WX78_distorted.png';
+	const wx78 = '/WX78_distorted.webp';
 </script>
 
 <div class="-mt-20 flex h-screen flex-col items-center justify-center">
