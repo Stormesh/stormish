@@ -3,8 +3,8 @@
 		sizeX?: number;
 		sizeY?: number;
 	}
-	const wx78 = '/WX78_distorted.webp';
-	const { sizeX = 40, sizeY = 40 }: ILogoProps = $props();
+	const wx78 = '/WX78_distorted_mini.webp';
+	const { sizeX = 60, sizeY = 60 }: ILogoProps = $props();
 </script>
 
 <img

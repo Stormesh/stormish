@@ -1,5 +1,6 @@
 <script lang="ts">
 	const wx78 = '/WX78_distorted.webp';
+	const wx78_small = '/WX78_distorted_small.webp';
 </script>
 
 <div class="-mt-20 flex h-screen flex-col items-center justify-center">
@@ -9,6 +10,8 @@
 	></div>
 	<img
 		src={wx78}
+		srcset="{wx78_small} 140w, {wx78} 200w"
+		sizes="(max-width: 600px) 140px, 200px"
 		alt="face"
 		fetchpriority="high"
 		class="fadeInMotion drop-shadow-glow hover:drop-shadow-glow-lg h-36 w-36 rounded-full ring-4 ring-sky-400 transition-all duration-300 hover:scale-105 md:h-50 md:w-50"
