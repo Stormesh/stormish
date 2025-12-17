@@ -17,4 +17,3 @@ export const inView: Action<HTMLElement, InViewParams> = (node, params) => {
 
 	useIntersectionObserver(() => node, handleIntersect, { rootMargin: params.rootMargin });
 };
-

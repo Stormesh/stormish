@@ -5,7 +5,7 @@
 		autoPlay?: boolean;
 		showComments?: boolean;
 		color?: string;
-        width?: number;
+		width?: number;
 		height?: number;
 	}
 
@@ -15,7 +15,7 @@
 		autoPlay = false,
 		showComments = true,
 		color = 'ff5500',
-        width = 200,
+		width = 200,
 		height = 200
 	}: ISoundCloudWidgetProps = $props();
 

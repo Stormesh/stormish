@@ -15,7 +15,10 @@
 	}
 </script>
 
-<section use:inView={{ rootMargin: '-100px', onInView }} class="mb-10 flex flex-col justify-between">
+<section
+	use:inView={{ rootMargin: '-100px', onInView }}
+	class="mb-10 flex flex-col justify-between"
+>
 	<div class="{isInView ? 'opacity-100' : 'opacity-0'} transition-opacity duration-700 ease-in-out">
 		<h1 class="m-2 text-center align-middle text-5xl font-bold">
 			{header}

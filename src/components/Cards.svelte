@@ -13,7 +13,13 @@
 
 	let { cardData, mini = false, center = true }: ICardProps = $props();
 
-	let cardVisibility: boolean[] = $state(cardData.map(() => false));
+	let cardVisibility: boolean[] = $state([]);
+
+	$effect(() => {
+		if (cardData.length !== cardVisibility.length) {
+			cardVisibility = cardData.map(() => false);
+		}
+	});
 
 	const showCard = (index: number) => {
 		if (mini) return;

@@ -21,7 +21,7 @@
 			alt={data.project.name}
 			width={600}
 			height={100}
-			class="m-3 w-full h-140 rounded-xl object-contain"
+			class="m-3 h-140 w-full rounded-xl object-contain"
 		/>
 		<ProjectDetails heading="Description">
 			<ProjectDescription

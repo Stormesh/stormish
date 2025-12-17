@@ -22,8 +22,9 @@
 		Andrew Samuel
 	</h1>
 	<h2 class="fadeInDelay text-center text-xl font-bold md:text-3xl">
-		Full Stack <span class="dark:text-sky-500 text-sky-700">React</span>/<span class="dark:text-orange-500 text-orange-700">Svelte</span
-		>/<span class="dark:text-emerald-500 text-emerald-700">Vue</span> Developer
+		Full Stack <span class="text-sky-700 dark:text-sky-500">React</span>/<span
+			class="text-orange-700 dark:text-orange-500">Svelte</span
+		>/<span class="text-emerald-700 dark:text-emerald-500">Vue</span> Developer
 	</h2>
 </div>
 

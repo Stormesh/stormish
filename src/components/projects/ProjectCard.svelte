@@ -8,7 +8,7 @@
 
 	let { url, text, name, img, isMobile = false }: ICardProps = $props();
 
-	const backgroundStyle = `background-image: url('${img}')`;
+	const backgroundStyle = $derived(`background-image: url('${img}')`);
 </script>
 
 <div
@@ -27,7 +27,7 @@
 					text="Visit Site"
 					color="bg-green-600"
 					hoverColor="hover:bg-green-400"
-					url={url}
+					{url}
 				/>
 				<ProjectButton
 					text="View Details"

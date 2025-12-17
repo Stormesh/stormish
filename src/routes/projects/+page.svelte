@@ -1,7 +1,5 @@
 <script lang="ts">
-	import ProjectsInit from "$components/projects/ProjectsInit.svelte";
-
-
+	import ProjectsInit from '$components/projects/ProjectsInit.svelte';
 </script>
 
 <svelte:head>

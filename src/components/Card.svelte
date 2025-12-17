@@ -20,9 +20,9 @@
 		return cards.find((card) => card.id === cardId);
 	};
 
-	const card = getCard(id);
+	const card = $derived(getCard(id));
 
-	const cardImgSize = mini ? 40 : 64;
+	const cardImgSize = $derived(mini ? 40 : 64);
 </script>
 
 <div
@@ -45,8 +45,10 @@
 			<img width={cardImgSize} height={cardImgSize} src={card.img} alt="Card" />
 		{:else if card?.devicon}
 			<i
-				class="devicon-{card.devicon.name}-{card.devicon.type || "plain"} {mini ? 'text-[2.5rem]' : 'text-[4rem]'} text-[{card.devicon.color}] {card.devicon
-					.darkColor && `dark:text-[${card.devicon.darkColor}]`}"
+				class="devicon-{card.devicon.name}-{card.devicon.type || 'plain'} {mini
+					? 'text-[2.5rem]'
+					: 'text-[4rem]'} text-[{card.devicon.color}] {card.devicon.darkColor &&
+					`dark:text-[${card.devicon.darkColor}]`}"
 			>
 			</i>
 		{/if}
