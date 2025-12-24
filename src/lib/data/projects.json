@@ -9,8 +9,8 @@
 				"description": "A simple calorie tracker for your daily needs.",
 				"lgDescription": "![Logo](https://raw.githubusercontent.com/Stormesh/simple-calorie-tracker/refs/heads/master/public/maxhp_banner.png)A simple calorie tracker for your daily needs.\n## Features\n*   Search for food items.\n*   View detailed nutritional information for each food item.\n*   Track your daily calorie intake.",
 				"img": "/maxhp.jpg",
-				"coverImg": "/maxhp_cover.webp",
-				"previewImg": "https://raw.githubusercontent.com/Stormesh/simple-calorie-tracker/refs/heads/master/public/maxhp_banner.png",
+				"previewImg": ["/maxhp_cover.webp"],
+				"coverImg": "https://raw.githubusercontent.com/Stormesh/simple-calorie-tracker/refs/heads/master/public/maxhp_banner.png",
 				"technologies": [
 					{
 						"id": "nuxt"
@@ -162,6 +162,13 @@
 				"description": "Lost in Memories is a third-person platformer game made by Eslam980, the goal is to avoid traps to recover the lost memories.",
 				"lgDescription": "![Lost in Memories](https://img.itch.zone/aW1nLzUwOTUwOTUucG5n/original/JDMNaT.png)\nLost in Memories is a third-person platformer game made by Eslam980, the goal is to avoid traps to recover the lost memories. \n\n## Features\n- Multiple Levels: Navigate through various challenging levels filled with traps and obstacles.\n- Engaging Gameplay: Test your reflexes and problem-solving skills as you progress through the game.\n- Immersive Environment: Experience a captivating world designed to enhance your gaming experience.",
 				"img": "https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwODYucG5n/original/nkS1aj.png",
+				"previewImg": [
+					"https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwODYucG5n/original/nkS1aj.png",
+					"https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwOTAucG5n/original/XA4o33.png",
+					"https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwODcucG5n/original/e7xOwE.png",
+					"https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwODgucG5n/original/OEQl0k.png",
+					"https://img.itch.zone/aW1hZ2UvOTAyMzc5LzUwOTUwODkucG5n/original/ihn7XM.png"
+				],
 				"technologies": [
 					{
 						"id": "unity"
@@ -181,7 +188,11 @@
 				"description": "The Last Ghost is a 2D platformer game made by Eslam980. Your goal is to take 3 flags across the map to win the game.",
 				"lgDescription": "The Last Ghost is a 2D platformer game made by Eslam980. Your goal is to take 3 flags across the map to win the game.\n\n## Features\n- **Flexible weapons**: You can use different types of weapons to defeat enemies and collect power-ups.\n- **Exploration**: Explore and uncover hidden secrets.\n- **Music and sound effects**: Enjoy an immersive audio experience with original music and sound effects (produced by me).",
 				"img": "https://img.itch.zone/aW1nLzU0ODI5MzYucG5n/315x250%23c/jFqf%2FL.png",
-				"previewImg": "https://img.itch.zone/aW1hZ2UvOTY1OTE1LzU0ODMwODEucG5n/original/YTbQTq.png",
+				"previewImg": [
+					"https://img.itch.zone/aW1hZ2UvOTY1OTE1LzU0ODMwODEucG5n/original/YTbQTq.png",
+					"https://img.itch.zone/aW1hZ2UvOTY1OTE1LzU0ODMwODMucG5n/original/ZAjX6D.png",
+					"https://img.itch.zone/aW1hZ2UvOTY1OTE1LzU0ODMwODIucG5n/original/rydBYP.png"
+				],
 				"soundCloudUrls": [
 					"https://soundcloud.com/user-277296791/start-of-a-great-tale-the-last-ghost",
 					"https://soundcloud.com/user-277296791/shattered-memory-the-last-ghost"
@@ -205,7 +216,10 @@
 				"description": "A captivating narrative-driven game where players assume the role of a courageous messenger pigeon caught in the midst of a war-torn world.",
 				"lgDescription": "![Wings of Peace](https://img.itch.zone/aW1nLzE1MTQ1MzczLnBuZw==/original/phxJz9.png)\nA captivating narrative-driven game where players assume the role of a courageous messenger pigeon caught in the midst of a war-torn world. As the avian protagonist, your mission is to deliver vital messages between two warring nations, ultimately striving to bring about reconciliation and peace. \n\n Set in a beautifully rendered world ravaged by conflict, the game offers a unique perspective on the consequences of war and the power of communication in fostering understanding and harmony. With its emphasis on storytelling and emotional depth, Wings of Peace immerses players in a poignant tale of hope, sacrifice, and the enduring spirit of compassion.  \n\n## Features\n- **Engaging Storyline**: Immerse yourself in a compelling narrative as you navigate through the challenges of war.\n- **Unique Gameplay**: Experience the world from the perspective of a messenger pigeon, delivering crucial messages across dangerous territories.\n- **Stunning Visuals**: Enjoy beautifully crafted environments and character designs that bring the story to life.",
 				"img": "https://img.itch.zone/aW1nLzE1MTQ1Mjc0LmpwZw==/315x250%23c/hEjkvj.jpg",
-				"previewImg": "https://img.itch.zone/aW1hZ2UvMjU0NTI2OS8xNTE0NTkwOS5wbmc=/original/N4pMoW.png",
+				"previewImg": [
+					"https://img.itch.zone/aW1hZ2UvMjU0NTI2OS8xNTE0NTkwOS5wbmc=/original/N4pMoW.png",
+					"https://img.itch.zone/aW1hZ2UvMjU0NTI2OS8xNTE0NTkyMi5wbmc=/original/tE0OT%2B.png"
+				],
 				"technologies": [
 					{
 						"id": "unity"
@@ -239,7 +253,7 @@
 					}
 				],
 				"img": "https://img.itch.zone/aW1nLzE3NDI2MjM5LmpwZw==/315x250%23c/9lSs9Q.jpg",
-				"previewImg": "https://img.itch.zone/aW1nLzE3NDM0NzU4LnBuZw==/original/bdGN57.png"
+				"previewImg": ["https://img.itch.zone/aW1nLzE3NDM0NzU4LnBuZw==/original/bdGN57.png"]
 			},
 			{
 				"name": "wizard",
@@ -263,7 +277,12 @@
 					}
 				],
 				"img": "https://img.itch.zone/aW1nLzIwNzA5MTQwLnBuZw==/original/fZQrse.png",
-				"previewImg": "https://img.itch.zone/aW1hZ2UvMzQ3MDIxMi8yMDcwODcyOS5wbmc=/original/5vDJVp.png"
+				"coverImg": "https://img.itch.zone/aW1nLzIwNzA5MTQwLnBuZw==/original/fZQrse.png",
+				"previewImg": [
+					"https://img.itch.zone/aW1hZ2UvMzQ3MDIxMi8yMDcwODcyOS5wbmc=/original/5vDJVp.png",
+					"https://img.itch.zone/aW1hZ2UvMzQ3MDIxMi8yMDcwODY3Ny5wbmc=/original/RXYsaU.png",
+					"https://img.itch.zone/aW1hZ2UvMzQ3MDIxMi8yMDcwODY5My5wbmc=/original/1LFcZ5.png"
+				]
 			}
 		]
 	},

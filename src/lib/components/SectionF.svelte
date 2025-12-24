@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { type Snippet } from 'svelte';
-	import { inView } from '$lib/utils';
+	import { inView } from '$utils/in-view';
 
 	interface ISecsProps {
 		header: string;

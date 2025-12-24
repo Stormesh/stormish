@@ -12,7 +12,7 @@ export interface IProject {
 	name: string;
 	img: string;
 	coverImg?: string;
-	previewImg?: string;
+	previewImg?: string[];
 	soundCloudUrls?: string[];
 	soundCloudTrackIds?: string[];
 	technologies?: ICard[];

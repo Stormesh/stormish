@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { hoveredProject } from '$stores/hoverStore.svelte';
+	import { hoveredProject } from '$stores/hover-store.svelte';
 	import type { IProject } from '$lib/data';
 	import ProjectCard from './ProjectCard.svelte';
-	import { inView } from '$lib/utils';
+	import { inView } from '$utils/in-view';
 
 	let { url, text, description, name, img, coverImg, previewImg, technologies }: IProject = $props();
 

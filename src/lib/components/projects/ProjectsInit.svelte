@@ -2,7 +2,7 @@
     import Projects from '$components/projects/Projects.svelte';
     import { projects } from '$lib/data';
     import ProjectPreview from '$components/projects/ProjectPreview.svelte';
-    import { resetHoveredProject } from '$stores/hoverStore.svelte';
+    import { resetHoveredProject } from '$stores/hover-store.svelte';
 
     const projectsData = projects;
 

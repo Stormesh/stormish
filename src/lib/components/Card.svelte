@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { inView } from '$lib/utils';
+	import { inView } from '$utils/in-view';
 	import cards from '../data/cards.json';
 
 	let {

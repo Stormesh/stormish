@@ -34,6 +34,7 @@
 					color="bg-blue-600"
 					hoverColor="hover:bg-blue-400"
 					url={`/projects/${name}`}
+					link={false}
 				/>
 			</div>
 		{/if}

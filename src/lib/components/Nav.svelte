@@ -13,7 +13,7 @@
 	{#each navItems as { name, path }}
 		<a
 			href={`${path}`}
-			class={`mx-1 rounded-xl p-2 text-lg transition-colors ${page.url.pathname === `${path}` ? activeClass : 'text-black hover:bg-gray-100 hover:text-black dark:bg-transparent dark:text-white'}`}
+			class={`mx-1 rounded-xl p-2 text-lg transition-colors ${page.url.pathname === `${path}` ? activeClass : 'text-black hover:bg-gray-100 dark:hover:text-black dark:text-white'}`}
 		>
 			{name}
 		</a>

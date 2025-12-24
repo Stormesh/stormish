@@ -5,7 +5,8 @@
 	import Footer from '$components/Footer.svelte';
 	import Header from '$components/Header.svelte';
 	import { cubicIn, cubicOut } from 'svelte/easing';
-	import { hoveredProject } from '../stores/hoverStore.svelte';
+	import { hoveredProject } from '../lib/stores/hover-store.svelte';
+	import { ModeWatcher } from 'mode-watcher';
 
 	let { children } = $props();
 
@@ -16,6 +17,7 @@
 	});
 </script>
 
+<ModeWatcher />
 <Header />
 {#key page.url.pathname}
 	<section

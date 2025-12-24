@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Landing from '../components/Landing.svelte';
-	import List from '../components/List.svelte';
-	import SectionF from '../components/SectionF.svelte';
-	import SkillList from '../components/SkillList.svelte';
-	import SkillData from '../data/skills.json';
+	import Landing from '$components/Landing.svelte';
+	import List from '$components/List.svelte';
+	import SectionF from '$components/SectionF.svelte';
+	import SkillList from '$components/SkillList.svelte';
+	import SkillData from '$data/skills.json';
 </script>
 
 <svelte:head>

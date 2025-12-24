@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Cards from '$components/Cards.svelte';
-	import { hoveredProject } from '$stores/hoverStore.svelte';
+	import { hoveredProject } from '$stores/hover-store.svelte';
 	import ProjectButton from './ProjectButton.svelte';
 	import ProjectDetails from './ProjectDetails.svelte';
 </script>
@@ -11,7 +11,7 @@
 	{#if hoveredProject}
 		<h1 class="mb-2 text-center text-4xl font-bold">{hoveredProject.text}</h1>
 		<img
-			src={hoveredProject.previewImg || hoveredProject.coverImg || hoveredProject.img}
+			src={hoveredProject.coverImg || (Array.isArray(hoveredProject.previewImg) ? hoveredProject.previewImg[0] : hoveredProject.previewImg) || hoveredProject.img}
 			alt={hoveredProject.name}
 			class="m-3 h-[15em] w-[25em] rounded-xl object-cover"
 		/>
@@ -29,7 +29,7 @@
 				color="bg-green-600"
 				hoverColor="hover:bg-green-400"
 				url={hoveredProject.url}
-				big={true}
+				big
 			/>
 		</div>
 	{/if}
