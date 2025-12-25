@@ -15,9 +15,9 @@
 	let selectedCarouselIndex = $state(0);
 	let carouselRef = $state<HTMLDivElement>();
 
-	const previewImages = $derived(Array.isArray(project.previewImg) ? project.previewImg : []);
+	const previewImages = $derived(Array.isArray(project.previewImg) && project.previewImg);
 
-	const hasMultipleImages = $derived(previewImages.length > 1);
+	const hasMultipleImages = $derived(previewImages && previewImages.length > 1);
 
 	$effect(() => {
 		if (!carouselApi) return;
@@ -52,9 +52,9 @@
 	}
 </script>
 
-<div>
+<div class="flex items-center justify-center">
 	<Carousel.Root
-		class="w-230"
+		class="w-90 md:w-230"
 		setApi={(emblaApi) => (carouselApi = emblaApi)}
 		opts={{
 			loop: true
@@ -67,7 +67,7 @@
 			{#if previewImages}
 				{#each previewImages as img, index (index)}
 					<Carousel.Item>
-						<div class="h-120 w-full overflow-hidden rounded-xl">
+						<div class="h-40 md:h-120 w-full overflow-hidden rounded-xl">
 							<img
 								src={img}
 								alt={project.name}
@@ -84,17 +84,19 @@
 					alt={project.name}
 					width={600}
 					height={560}
-					class="m-3 h-120 w-full rounded-xl object-contain"
+					class="m-3 h-40 md:h-120 w-full rounded-xl object-contain"
 				/>
 			{/if}
 		</Carousel.Content>
-		{#if hasMultipleImages}
-			<Carousel.Previous class="cursor-pointer" />
-			<Carousel.Next class="cursor-pointer" />
+		{#if previewImages && hasMultipleImages}
+			<div class="hidden md:block *:cursor-pointer">
+				<Carousel.Previous />
+				<Carousel.Next />
+			</div>
 			<div class="flex w-full flex-row flex-nowrap overflow-x-auto" bind:this={carouselRef}>
 				{#each previewImages as img, index (index)}
 					<button
-						class="mx-2 my-3 h-20 w-36 shrink-0 cursor-pointer overflow-hidden rounded-lg transition-opacity duration-300 ease-in-out select-none"
+						class="mx-1 my-3 h-16 w-24 md:h-22 md:w-36 shrink-0 cursor-pointer overflow-hidden rounded-lg transition-opacity duration-300 ease-in-out select-none"
 						onclick={() => scrollCarouselToIndex(index)}
 						class:opacity-50={index !== selectedCarouselIndex}
 					>
