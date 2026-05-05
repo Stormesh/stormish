@@ -47,7 +47,7 @@
 		"devicon": {
 			"name": "nextjs",
 			"darkColor": "#fff",
-			"color": "#f06529"
+			"color": "#000"
 		},
 		"glowColor": "#fff"
 	},
@@ -94,7 +94,7 @@
 			"name": "express",
 			"type": "original",
 			"darkColor": "#fff",
-			"color": "#f06529"
+			"color": "#000"
 		},
 		"glowColor": "#fff"
 	},
@@ -110,7 +110,7 @@
 		"devicon": {
 			"name": "flask",
 			"darkColor": "#fff",
-			"color": "#f06529"
+			"color": "#000"
 		},
 		"glowColor": "#fff"
 	},
@@ -192,7 +192,7 @@
 		"devicon": {
 			"name": "socketio",
 			"darkColor": "#fff",
-			"color": "#f06529"
+			"color": "#000"
 		},
 		"glowColor": "#fff"
 	},

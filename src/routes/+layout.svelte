@@ -23,7 +23,7 @@
 	<section
 		in:fade={{ easing: cubicOut, duration: 400, delay: 150 }}
 		out:fade={{ easing: cubicIn, duration: 150 }}
-		class="mx-auto min-h-screen max-w-5xl px-4 md:px-8"
+		class="mx-auto min-h-screen mt-25 max-w-5xl px-4 md:px-8"
 	>
 		{@render children()}
 	</section>
@@ -34,6 +34,25 @@
 	@reference "../app.css";
 
 	:global(body) {
-		@apply mt-24 bg-slate-50 bg-fixed text-black dark:bg-linear-to-tr dark:from-gray-950 dark:to-zinc-900 dark:text-white;
+		@apply bg-background text-foreground selection:bg-primary/20 selection:text-primary;
+		background-image: radial-gradient(
+				at 0% 0%,
+				oklch(0.7 0.2 250 / 0.12) 0,
+				transparent 50%
+			),
+			radial-gradient(at 100% 0%, oklch(0.7 0.2 190 / 0.1) 0, transparent 50%);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	:global(.dark body) {
+		@apply bg-background;
+		background-image: radial-gradient(
+				at 0% 0%,
+				oklch(0.4 0.15 250 / 0.15) 0,
+				transparent 50%
+			),
+			radial-gradient(at 100% 0%, oklch(0.4 0.15 190 / 0.12) 0, transparent 50%);
 	}
 </style>

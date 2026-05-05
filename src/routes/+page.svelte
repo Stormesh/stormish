@@ -1,9 +1,22 @@
 <script lang="ts">
 	import Landing from '$components/Landing.svelte';
-	import List from '$components/List.svelte';
 	import SectionF from '$components/SectionF.svelte';
 	import SkillList from '$components/SkillList.svelte';
 	import SkillData from '$data/skills.json';
+	import ProjectCard from '$lib/components/projects/ProjectCard.svelte';
+	import projectsData from '$lib/data/projects.json';
+
+	function getFeaturedProjects() {
+		const myProjects = projectsData.find(category => category.title === "My Projects")?.projects || [];
+		const assistProjects = projectsData.find(category => category.title === "Assist Projects")?.projects || [];
+		
+		const featured = [
+			...myProjects.slice(0, 2),
+			...assistProjects.slice(0, 1)
+		];
+		
+		return featured;
+	}
 </script>
 
 <svelte:head>
@@ -21,14 +34,14 @@
 </SectionF>
 <SectionF header="What I Do">
 	<p class="text-justify">
-		I build and design web applications using <span class="font-bold text-sky-700 dark:text-sky-500"
+		I build and design web applications using <span class="font-bold text-primary"
 			>React</span
-		>, <span class="font-bold text-emerald-700 dark:text-emerald-500">Vue</span> and
-		<span class="font-bold text-orange-700 dark:text-orange-500">Svelte</span>. Choosing the right
+		>, <span class="font-bold text-emerald-500">Vue</span> and
+		<span class="font-bold text-orange-500">Svelte</span>. Choosing the right
 		tool for the job is crucial. I'm currently focused on developing my backend skills on
-		<span class="font-bold text-lime-700 dark:text-lime-600">Node.js</span>,
-		<span class="font-bold text-yellow-600 dark:text-yellow-300">Python</span>
-		and <span class="font-bold text-indigo-600 dark:text-indigo-400">.NET</span> and I'm more than happy
+		<span class="font-bold text-lime-600">Node.js</span>,
+		<span class="font-bold text-yellow-500">Python</span>
+		and <span class="font-bold text-indigo-500">.NET</span> and I'm more than happy
 		to share my knowledge and experience with others. Driven by my love for music, I also compose and
 		produce music using LMMS.
 	</p>
@@ -36,6 +49,10 @@
 <SectionF header="Skills">
 	<SkillList skillList={SkillData} />
 </SectionF>
-<SectionF header="Soft Skills">
-	<List />
+<SectionF header="Featured Projects">
+	<div class="flex flex-wrap items-center justify-center">
+		{#each getFeaturedProjects() as project}
+			<ProjectCard {...project} />
+		{/each}
+	</div>
 </SectionF>

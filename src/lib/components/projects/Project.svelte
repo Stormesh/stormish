@@ -27,7 +27,7 @@
 
 <!-- Desktop -->
 <div
-	class={`${shown ? 'translate-x-0 scale-100 opacity-100' : '-translate-x-24 scale-75 opacity-0'} 'trannsition-all hidden duration-500 ease-in-out md:inline-block`}
+	class={`${shown ? 'translate-x-0 scale-100 opacity-100' : '-translate-x-24 scale-75 opacity-0'} hidden transition-all duration-500 ease-in-out md:inline-block`}
 	onmouseenter={viewProject}
 	use:inView={{ onInView: showProject }}
 	role="group"

@@ -12,15 +12,13 @@
 	let { skillList }: ISkillListProps = $props();
 </script>
 
-<div class="mx-10 flex flex-col flex-wrap justify-center lg:flex-row">
+<div class="flex flex-col gap-12">
 	{#each skillList as { title, data }, index (index)}
-		<div class="mb-10">
-			<h1 class="text-center font-mono text-3xl font-bold transition-all duration-500">
+		<div class="w-full">
+			<h3 class="text-foreground/80 mb-6 text-xl font-bold tracking-tight md:text-2xl">
 				{title}
-			</h1>
-			<div class="w-full p-5">
-				<Cards cardData={data} />
-			</div>
+			</h3>
+			<Cards cardData={data} />
 		</div>
 	{/each}
 </div>

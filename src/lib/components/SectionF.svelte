@@ -17,12 +17,24 @@
 
 <section
 	use:inView={{ rootMargin: '-100px', onInView }}
-	class="mb-10 flex flex-col justify-between"
+	class="relative mb-24 flex flex-col items-center py-12 md:mb-32"
 >
-	<div class="{isInView ? 'opacity-100' : 'opacity-0'} transition-opacity duration-700 ease-in-out">
-		<h1 class="m-2 text-center align-middle text-5xl font-bold">
-			{header}
-		</h1>
-		{@render children()}
+	<div
+		class={`w-full transition-all duration-1000 ease-out ${
+			isInView ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+		}`}
+	>
+		<div class="mb-12 flex flex-col items-center">
+			<h2
+				class="mb-4 text-center text-3xl font-bold tracking-tight text-foreground md:text-5xl"
+			>
+				{header}
+			</h2>
+			<div class="h-1.5 w-12 rounded-full bg-primary/40"></div>
+		</div>
+
+		<div class="mx-auto w-full max-w-4xl px-4 text-lg leading-relaxed text-muted-foreground">
+			{@render children()}
+		</div>
 	</div>
 </section>
