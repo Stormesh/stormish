@@ -26,7 +26,7 @@
 <div
 	class="group m-1.5 flex {mini
 		? 'h-12 w-12 md:h-14 md:w-14'
-		: 'h-24 w-24 md:h-28 md:w-28'} flex-col items-center justify-center rounded-2xl border border-white/40 bg-white/60 p-2 text-center shadow-sm backdrop-blur-sm transition-all duration-500 hover:scale-105 hover:border-primary/50 hover:bg-white/80 dark:border-white/10 dark:bg-white/10 dark:hover:bg-white/20 {cardVisibility ||
+		: 'h-24 w-24 md:h-28 md:w-28'} hover:border-primary/50 flex-col items-center justify-center rounded-2xl border border-white/40 bg-white/60 p-2 text-center shadow-sm backdrop-blur-sm transition-all duration-500 hover:scale-105 hover:bg-white/80 dark:border-white/10 dark:bg-white/10 dark:hover:bg-white/20 {cardVisibility ||
 	mini
 		? 'translate-y-0 opacity-100'
 		: 'translate-y-8 opacity-0'}"
@@ -45,15 +45,16 @@
 		{:else if card?.devicon}
 			<i
 				class="devicon-{card.devicon.name}-{card.devicon.type || 'plain'} {mini
-					? 'text-xl md:text-3xl'
-					: 'text-3xl md:text-5xl'}"
-				style="color: var(--icon-color, {card.devicon.color}); --icon-color: {card.devicon.color}; {card.devicon.darkColor ? `--dark-icon-color: ${card.devicon.darkColor};` : ''}"
+					? 'text-[2rem] md:text-[2.5rem]'
+					: 'text-5xl md:text-[4rem]'}"
+				style="color: var(--icon-color, {card.devicon.color}); --icon-color: {card.devicon
+					.color}; {card.devicon.darkColor ? `--dark-icon-color: ${card.devicon.darkColor};` : ''}"
 			>
 			</i>
 		{/if}
 	</div>
 	<span
-		class="mt-1.5 block truncate px-1 text-[11px] font-semibold text-muted-foreground transition-colors group-hover:text-foreground md:mt-2 md:text-xs {mini
+		class="text-muted-foreground group-hover:text-foreground mt-1.5 block truncate px-1 text-[11px] font-semibold transition-colors md:mt-2 md:text-xs {mini
 			? 'hidden'
 			: ''}"
 	>
@@ -62,8 +63,6 @@
 </div>
 
 <style>
-	@reference "../../app.css";
-	
 	:global(.dark) i {
 		color: var(--dark-icon-color, var(--icon-color)) !important;
 	}
